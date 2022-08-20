@@ -9,13 +9,13 @@ function getValues(){
     inputText = inputText.replace(regex,"")
 
     //Check if it's a palindrome
-    let res = checkPilindrome(inputText)
+    let res = checkPalindrome(inputText)
     //Display 
     disPlayPalindrome(res, inputText)
 }
 
 
-function checkPilindrome(input) {
+function checkPalindrome(input) {
     let i = 0
     let j = input.length - 1
 
